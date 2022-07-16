@@ -1,0 +1,52 @@
+div {
+    border: red;
+    border-style: solid;
+    border-width: 2px;
+    margin: 2px;
+}
+
+nav {
+    border: blue;
+    border-style: solid;
+    border-width: 2px;
+    margin: 2px;
+    display: inline-block;
+    width: 75%;    
+}
+header {
+    display: flex;
+    justify-content: center;
+}
+p {
+    border: green;
+    border-style: solid;
+    border-width: 2px;
+    margin: 2px;
+}
+
+a {
+    border: purple;
+    border-style: solid;
+    border-width: 2px;
+    margin: 2px;
+}
+
+.linkedin {
+
+    margin: 2px
+}
+
+.nav-links {
+    display:inline;
+    float: right;
+}
+
+.navigation {
+    font-family: Kreon, Times, serif;
+    font-size: 32px;
+    color: #F1DEDE;
+    align-items: center;
+
+
+}
+
