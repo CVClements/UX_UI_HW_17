@@ -15,10 +15,14 @@ nav {
     width: 90%;    
 }
 
+.HeroSection {
+    margin-top: 70px;
+}
+
 .HeroText {
     margin-left: 25%;
     margin-right: 25%;
-    margin-top: 5px;
+    margin-top: auto;
     margin-bottom: 0px;
     text-align: left;
 }
@@ -36,6 +40,7 @@ nav {
 .h2 {
     font-family: Kreon, Times, serif;
     font-size: 20px;
+    color:#0E1233;
     margin-right: 5px;
     margin-left: 50%;
     width: 50%;
