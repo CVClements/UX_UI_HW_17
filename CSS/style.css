@@ -5,7 +5,7 @@ html {
 body {
     margin: 0;
     min-height: 100%;
-    background:  linear-gradient(180deg, #0E1233 70%, #F1DEDE 100%) fixed;
+    background:  linear-gradient(180deg, #0E1233 75%, #F1DEDE 100%) fixed;
 
 }
 
@@ -25,8 +25,8 @@ nav {
 }
 
 .HeroText {
-    margin-left: 30%;
-    margin-right: 30%;
+    margin-left: 20%;
+    margin-right: 20%;
     margin-top: auto;
     margin-bottom: 0px;
     text-align: left;
@@ -44,15 +44,16 @@ nav {
 
 .h2 {
     font-family: Kreon, Times, serif;
-    font-size: 20px;
+    font-size: 24px;
     color:#0E1233;
     margin-right: 30px;
-    margin-left: 50%;
+    margin-left: 30px;
     width: 50%;
     display: flex;
     align-items: center;
     padding: 10px;
   }
+
 .h3 {
     color: #F1DEDE;
     font-family: Kreon, Times, serif;
@@ -61,6 +62,9 @@ nav {
     margin-bottom: 20px;
     
 }
+
+
+
 header {
     display: flex;
     justify-content: center;
@@ -117,6 +121,11 @@ padding-right: 32px;
 
 }
 
+#doe {
+    margin-left: 20px;
+}
+
+
 #Quilt {
     background-color: #F1DEDE;
    text-align: left;
@@ -125,13 +134,31 @@ padding-right: 32px;
 
 .CaseGridArea {
    display: flex;
-   max-width: 800px;
+   max-width: 900px;
    margin-top: 10px;
    margin-bottom: 10px;
-   margin-left: 30%;
-   margin-right: 30%;
-   height: 200px;
+   margin-left: 20%;
+   margin-right: 20%;
+   height: 300px;
    justify-content: center;
+   border-radius: 10px;
+}
+
+#LAC img {
+    margin-left: 30px;
+    padding: 5px;
+}
+
+#DOE img {
+    margin-right: 30px;
+    padding: 5px;
+}
+
+#Quilt img {
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 5px;
 }
 
 .caseTitle {
