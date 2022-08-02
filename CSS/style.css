@@ -1,7 +1,13 @@
-
 html {
-    height: auto;
+    margin: 0;
+    height: 100%;
+}
+body {
+    margin: 0;
+    min-height: 100%;
     background-image:  linear-gradient(180deg, #0E1233 32.18%, #F1DEDE 100%);
+    background-color: #F1DEDE;
+    background-repeat: no-repeat;
 }
 
 div {
@@ -20,8 +26,8 @@ nav {
 }
 
 .HeroText {
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: 30%;
+    margin-right: 30%;
     margin-top: auto;
     margin-bottom: 0px;
     text-align: left;
@@ -59,6 +65,7 @@ nav {
 header {
     display: flex;
     justify-content: center;
+    margin-top: 30px;
 }
 
 
@@ -121,8 +128,8 @@ padding-right: 32px;
    display: flex;
    margin-top: 10px;
    margin-bottom: 10px;
-   margin-left: 25%;
-   margin-right: 25%;
+   margin-left: 30%;
+   margin-right: 30%;
    height: 200px;
    justify-content: center;
 }
@@ -130,4 +137,35 @@ padding-right: 32px;
 .caseTitle {
  border: 20%;
  color: #0E1233;
+}
+
+.stars {
+/*    background-image: url("../Images/Star 6.svg")*/
+    padding: 50px 0;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-x: center;
+    background-position-y: center;
+    background-clip: padding-box;
+}
+
+.stars:hover {
+    animation: sparkle 0.62s;
+}
+
+@keyframes sparkle {
+    0% { background-image: "";}
+    8% { background-image: url("../Images/Star 1.svg");}    
+    16% { background-image: url("../Images/Star 2.svg");}    
+    24% { background-image: url("../Images/Star 3.svg");}    
+    32% { background-image: url("../Images/Star 4.svg");}    
+    40% { background-image: url("../Images/Star 5.svg");}    
+    48% { background-image: url("../Images/Star 6.svg");}    
+    56% { background-image: url("../Images/Star 7.svg");}    
+    64% { background-image: url("../Images/Star 8.svg");}    
+    72% { background-image: url("../Images/Star 9.svg");}    
+    80% { background-image: url("../Images/Star 10.svg");}    
+    88% { background-image: url("../Images/Star 11.svg");}    
+    96% { background-image: url("../Images/Star 12.svg");}    
+    100% { background-image: "";}
 }
